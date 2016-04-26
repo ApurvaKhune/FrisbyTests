@@ -1,4 +1,6 @@
+var frisby = require('../node_modules/frisby');
 this.dev_frisby_lib_location = "node_modules/frisby";
+
 //this.test_frisby_lib_location = "";
 //this.production_frisby_lib_location = "";
 //var jria_base_url="http://services.thebighalf.com/";

@@ -1,6 +1,7 @@
 /**
 * Created by Apurva on 31/3/16.
 */
+var frisby = require('../node_modules/frisby');
 this.testingUserId="tfortesting16@gmail.com";
 this.javaServices_dev_Base_url="https://dev-services.bighalf.io/";
 this.javaServices_prod_Base_url="https://services.bighalf.io/";

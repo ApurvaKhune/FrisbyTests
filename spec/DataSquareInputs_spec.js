@@ -1,7 +1,8 @@
 /**
 * Created by Apurva on 31/3/16.
 */
-var commonCfg = require("./CommonConfiguration_spec.js");
+var frisby = require('../node_modules/frisby');
+var commonCfg = require("/CommonConfiguration_spec.js");
 var javaServices_dev_Base_url=commonCfg.javaServices_dev_Base_url;
 var testingUserId=commonCfg.testingUserId;
 var dataSquareId_GetAttribuets="et745c60a8-b38f-4e9d-8d5d-26ac64a4d7ac";
