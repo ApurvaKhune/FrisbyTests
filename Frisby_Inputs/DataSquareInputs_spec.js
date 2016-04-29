@@ -14,8 +14,8 @@ var dataSquareId_Preview="aa8d6f176e-da5e-4861-94f9-b5fa7d03d8b7";
 var DSID_PostPutDelete="frisbytesting123";
 var DSID_PutService="frisby456";
 var Connector_Services_DS_Type="BigStore";
-var datasquareFamily_ID="1b31c405-fbc1-4b78-bab0-d8243b400941";
-var Update_DsFamily_ID="c9a0fa4b-f613-458b-9a7a-14667d066615";
+var datasquareFamily_ID="4fa3bd4d-008a-4567-bb59-908a52df24a0";
+var Update_DsFamily_ID="e3cc47bc-1e66-41e6-9906-2a7000e5e4ce";
 
 this.datasquareServices={
 	"desc" : "DataSquareService frisby tests",
@@ -32,7 +32,7 @@ this.datasquareServices={
 			"description":"testing frisby post service",
 			"refresh_rate":"1W",
 			"dataSquare_Name":"test",
-			"dataSquare_Type":"test"
+			"dataSquare_Type":"bigstore"
 		}
 	 },
 	 "Types" : {
@@ -99,7 +99,7 @@ this.datasquareServices={
      "Put_User_DataSquareFamily_Attributes" : {
 	     "url" : javaServices_dev_Base_url+"DataSquareService/user/"+testingUserId+"/datasquareFamily/"+Update_DsFamily_ID,
 	     "form_data" : {
-				"name":"DSFamily",
+				"name":"family3333",
 				"description":"updated DS Family"
 			}
      }
